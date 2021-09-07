@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+  </head>
+<body>
+<div class="main">
+<div class="register">
+
+<h2>Login Here!!</h2>
+<hr>
+<center>
+<form id="register" method="POST" action="insert_user.php">
+  <label for="username">Username:</label><br>
+  <input type="textbox" name="username" required><br>
+  Password:<br> <input type="password" name="pwd" id="myInput"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() { 
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+<input type="submit" value="Submit" name="submit" id="submit"><br>
+<input type="reset" value="Reset" name="reset" id="reset"><br>
+<a href="form.html"><input type="button" value="Create an account" name="button" id="button"></a>
+</center>
+
+
+</form>
+</div>
+</div>
+</body>
+</html>

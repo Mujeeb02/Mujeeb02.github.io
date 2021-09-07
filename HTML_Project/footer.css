@@ -1,0 +1,16 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerb{
+    height: 180px;
+    width: 250px;
+    border: 0px solid blue;
+    float: left;
+    margin-top: 10px;
+}

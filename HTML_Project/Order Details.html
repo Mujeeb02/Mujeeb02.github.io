@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="connect.php">
+<style>
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    <center><h1><u>Enter Order Details</u></h1>
+    <form action="connect.php" method="POST">
+        <label>First name:</label>
+        <input type="textbox" id="fname"  name="fname"  value=""><br><br>
+        <label>Last name:</label>
+        <input type="textbox" id="lname" name="lname" value=""><br><br>
+        <label>Mobile No.</label>
+        <input type="textbox" id="contact" name="contact" value=""><br><br>
+        <label>Item Name:</label>
+        <input type="textbox" id="items" name="items" value=""><br><br>
+        <label>Address:</label>
+        <input type="textbox" id="Address" name="Address" value=""><br><br>
+        <button type="submit" style="background-color: #04AA6D;color: white;padding: 12px;margin: 10px 0;width: 100%;border-radius: 3px;cursor: pointer;font-size: 17px;">Order Now</button>
+        <button type="reset" style="background-color: #04AA6D;color: white;padding: 12px;margin: 10px 0;width: 100%;border-radius: 3px;cursor: pointer;font-size: 17px;">Reset</button>
+      </form>
+    </center>
+</body>
+</html>

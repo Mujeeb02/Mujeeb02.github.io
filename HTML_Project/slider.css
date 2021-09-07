@@ -1,0 +1,11 @@
+#outerbox{
+
+}
+#sliderbox{
+    position: relative;
+    width: 3100px;
+    height: 200px;
+}
+#sliderbox img{
+    float: left;
+}

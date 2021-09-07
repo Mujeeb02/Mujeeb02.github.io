@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #c4a1a2;
+}
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+.content-wrapper img{
+    width: 1500px;
+    height: 1200px;
+}
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+.text-wrapper h1{
+    text-align: center;
+    color: black;
+    font-size: 5vw;
+    font-family: 'lobster',cursive;
+}

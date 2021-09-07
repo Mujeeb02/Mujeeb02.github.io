@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#des ul{
+    list-style-type: none;
+    z-index: 1000;
+
+}
+#des ul li{
+    background-color: black;
+    border: 2px solid whitesmoke;
+    width: 248px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#des ul li a{
+    text-decoration:none;
+    color: whitesmoke;
+    display: block;
+}
+#des ul li a:hover{
+    background-color: yellowgreen;
+}
+#des ul ul{
+    position: absolute;
+    display: none;
+}
+#des ul li:hover > ul{
+    display: block;
+
+}
+
+  
